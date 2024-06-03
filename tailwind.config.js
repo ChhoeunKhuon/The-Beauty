@@ -22,6 +22,7 @@ module.exports = {
         '120' : '30rem',
         '295' : '295px',
         '500' : '500px',
+        '308' : '308px',
       },
       borderRadius: {
         first: '200px 100px',
@@ -31,6 +32,9 @@ module.exports = {
       height: {
         '461' : '461px',
         '500': '500px',
+        '355' : '355px',
+        '140' : '42rem',
+        '110' : '30rem',
       },
       rotate : {
         '30': '30deg',
