@@ -8,6 +8,9 @@ module.exports = {
       colors:{
         primary: 'var(--red-color)',
       },
+      gradientColorStops: {
+
+      },
       fontSize: {
         small : 'var(--font-s)',
         p : 'var(--font-p)',
@@ -23,6 +26,8 @@ module.exports = {
         '295' : '295px',
         '500' : '500px',
         '308' : '308px',
+        '1000' : '1000px',
+        '800' : '800px',
       },
       borderRadius: {
         first: '200px 100px',
