@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors:{
         primary: 'var(--red-color)',
+        hover: 'var(--hover-color)',
       },
       gradientColorStops: {
 
@@ -46,7 +47,11 @@ module.exports = {
       },
       gap: {
         '40rem' : '40rem',
+      },
+      screens:{
+        'custom-md' : '720px',
       }
+     
     },
   },
   plugins: [

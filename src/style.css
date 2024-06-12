@@ -1,10 +1,25 @@
 :root{
     --main-color: #4d4d4d;
     --bg-color: #FFE5E5;
+    --hover-color:#a9a9a9a;
 
     --font-s: 16px;
     --font-p: 20px;
     --font-h1: 64px;
     --font-h2: 34px;
     --font-h3: 30px;
+}
+@media(max-width:720px){
+    h2{
+        display:none;
+    }
+    form{
+        display: block;
+    }
+    form section:first-child{
+        width: 400px;
+    }
+    form section:nth-child(2){
+        display: none;
+    }
 }

@@ -9,19 +9,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>About</title>
 </head>
-<body class="bg-pink-200 mx-20 text-p">
+<body class="bg-pink-200 mx-5 md:mx-20 text-p">
     <header>
-        <nav class="flex flex-row justify-between py-5">
-            <ul class="inline-flex gap-5 ">
-                <li><a href="Index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-            <h2  class="text-h3">The Beauty</h2>
-            <div class="flex gap-10">
-            <a href=""><i class="fas fa-user"></i></a>
-            <a href=""><i class="fas fa-shopping-bag"></i></a>
-        </div>
+        <nav class="flex md:flex-row justify-between py-5">
+            <ul class="inline-flex gap-5 mb-4 md:mb-0">
+                <li><a href="Index.html" class="hover:text-slate-500">Home</a></li>
+                <li><a href="shop.html" class="hover:text-slate-500">Shop</a></li>
+                <li><a href="about.html" class="hover:text-slate-500">About</a></li>
+            </ul>   
+            <h2 class="text-h3 mt-4 md:mt-0 md:hidden">The Beauty</h2>
+            <div class="flex gap-5">
+                <a href=""><i class="fas fa-user hover:text-slate-500"></i></a>
+                <a href=""><i class="fas fa-shopping-bag hover:text-slate-500"></i></a>
+            </div>
         </nav>
     </header>
     <main>
@@ -30,7 +30,7 @@
             <h2 class="text-h1 font-inria ml-3 relative -mt-10">Hello</h2>
         </section>
         <section>
-            <form action="" class="flex flex-row justify-center m-auto">
+            <form action="" class="flex flex-col md:flex-row justify-center m-auto md:block">
                 <section class="bg-white w-800">
                 <section class="flex flex-col w-500 p-20">
                 <div class="mb-5">
@@ -67,10 +67,12 @@
         </section>
         <section>
             <h3 class="text-center text-h1 font-inria">Who are we?</h3><br>
-            <div class="flex flex-row justify-between">
+            <div class="flex flex-col md:flex-row justify-between gap-5">
                 <p class="w-80">A good About Us page should include a brief history of the company, an overview of its products or services, and information about the people who work there. It’s also a good idea to include some customer testimonials and social media links.
                     By taking the time to create a strong About Us page, you can make a lasting impression on potential customers and increase your chances of making a sale.</p>
+                    <div>
                 <img class="w-120" src="../image/Go Younjung.jpeg" alt="">
+            </div>
             </div>
         </section>
         <br>
@@ -81,33 +83,34 @@
             <p>In addition, regular updates to the blog can help to ensure that returning visitors stay engaged with the site. And because search engines love content, a well-maintained blog section can surely boost your site’s ranking in search results. In other words, if you’re not already using blog pages to support your eCommerce website, you’re missing out on a crucial opportunity to drive traffic and convert leads.</p>
         </section>
     </main>
-    <footer>
-        <section  class="bg-white mt-40 flex flex-row justify-center p-10 gap-40rem">
-        <section class="flex flex-col gap-5">
-            <a href="">Home</a>
-            <a href="">Carrers</a>
-            <a href="">Diversity, Equity and Inclusion</a>
-            <a href="">Reconciliation Action Plan</a>
-            <a href="">Contact</a>
+    <footer class="mt-10">
+        <section class="bg-white flex flex-col md:flex-row justify-center p-10 gap-10 md:gap-40">
+            <section class="flex flex-col gap-5 text-center md:text-left">
+                <a href="">Home</a>
+                <a href="">Carrers</a>
+                <a href="">Diversity, Equity and Inclusion</a>
+                <a href="">Reconciliation Action Plan</a>
+                <a href="">Contact</a>
+            </section>
+            <section class="flex flex-col items-center md:items-start">
+                <h2 class="text-h3">The Beauty</h2>
+                <form class="max-w-md mx-auto">
+                    <div class="relative z-0 w-full mb-5 group flex flex-row">
+                        <input type="email" name="floating_email" id="floating_email" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                        <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
+                        <button class="bg-slate-200 rounded-full w-12 h-10"><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <br>
+                    <div class="text-center md:text-left">
+                        <p>Website Information</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                </form>
+            </section>
         </section>
-        <section>
-            <h2>The Beauty</h2>
-            <form class="max-w-md mx-auto">
-                <div class="relative z-0 w-full mb-5 group flex flex-row">
-                    <input type="email" name="floating_email" id="floating_email" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
-                    <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
-                    <button class="bg-slate-200 rounded-round w-12 h-10"><i class="fas fa-arrow-right"></i></button>
-                </div>
-                <br>
-                <div class="text-center">
-                    <p>Website Information</p>
-                    <p>privacy Policy</p>
-                </div>
+        <section class="text-center bg-slate-500 p-4">
+            <a href="" class="text-white">Copy Right 2024</a>
         </section>
-    </section>
-    <section class="text-center bg-slate-500 p-4">
-        <a href="" class=" text-white">Copy Right 2024</a>
-    </section>
     </footer>
 </body>
 </html>
